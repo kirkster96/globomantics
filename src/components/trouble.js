@@ -1,9 +1,9 @@
 import Banner, { subtitleStyle } from "./banner"
 
-const Trouble = () => {
+const Trouble = ({children}) => {
     return (
         <div className="col-7 mt-5" style={subtitleStyle}>
-        something else??
+        {children}
         </div>
     )
 }
